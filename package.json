@@ -1,0 +1,22 @@
+{
+  "name": "skyfi-theme",
+  "displayName": "skyfi Theme 🌌",
+  "description": "VSCode Theme",
+  "version": "0.0.1",
+  "icon": "./logo.png",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "skyfi Theme 🌌",
+        "uiTheme": "vs-dark",
+        "path": "./themes/skyfi-theme.json"
+      }
+    ]
+  }
+}
